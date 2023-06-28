@@ -26,7 +26,7 @@ section.biografia {
   border-radius: 5px;
 }
 
-section.proyectos {
+section.experiencia {
   background-color: #eaeaea;
   padding: 20px;
   border-radius: 5px;
@@ -51,6 +51,7 @@ h2 {
 
 p {
   line-height: 1.5;
+  text-align: justify;
 }
 
 footer {
@@ -67,3 +68,26 @@ footer {
   object-fit: cover;
   object-position: center;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  text-align: center;
+  line-height: 40px;
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
